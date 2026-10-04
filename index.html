@@ -1,199 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
 <title>Diwali Walk 2026</title>
- 
-style.css
- 
-https://fonts.googleapis.com
-<link://fonts.gstatic.com
- 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght;600&display=swap
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#fff8eb;
+color:#5a0018;
+line-height:1.7;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:30px;
+background:
+linear-gradient(rgba(255,248,235,.95),rgba(255,248,235,.95)),
+radial-gradient(circle at center,#ffd87d 0%, transparent 60%);
+}
+
+.diya{
+font-size:80px;
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{
+transform:translateY(0px);
+text-shadow:0 0 10px gold;
+}
+to{
+transform:translateY(-5px);
+text-shadow:0 0 40px gold;
+}
+}
+
+h1{
+font-family:'Cormorant Garamond',serif;
+font-size:6rem;
+color:#7a0019;
+}
+
+.hero h2{
+font-family:'Cormorant Garamond',serif;
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.tagline{
+font-size:1.4rem;
+max-width:700px;
+margin:20px auto;
+}
+
+.event-details{
+margin-top:25px;
+font-size:1.1rem;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:16px 35px;
+background:#7a0019;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:#530012;
+transform:translateY(-2px);
+}
+
+section{
+padding:80px 10%;
+}
+
+section h3{
+text-align:center;
+font-size:3rem;
+font-family:'Cormorant Garamond',serif;
+margin-bottom:35px;
+color:#7a0019;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.card .icon{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.schedule{
+display:grid;
+gap:20px;
+max-width:900px;
+margin:auto;
+}
+
+.house{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+#countdown{
+text-align:center;
+font-size:2rem;
+font-weight:bold;
+color:#7a0019;
+}
+
+.rsvp{
+text-align:center;
+background:white;
+padding:50px;
+border-radius:20px;
+max-width:900px;
+margin:auto;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+footer{
+background:#7a0019;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+footer h2{
+margin-bottom:20px;
+}
+
+.gold-divider{
+width:150px;
+height:3px;
+background:#d4a017;
+margin:20px auto;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:4rem;
+}
+
+.hero h2{
+font-size:2rem;
+}
+
+section h3{
+font-size:2.2rem;
+}
+
+}
+
+</style>
 </head>
 
 <body>
 
-    <div class="hero">
+<section class="hero">
 
-     <h1>DIWALI</h1>
+<div class="diya">🪔</div>
 
-        <h2>Walk-Through Party</h2>
+<div class="gold-divider"></div>
 
-        <p class="tagline">
-            Four Homes. One Celebration. Endless Memories.
-        </p>
+<h1>DIWALI</h1>
 
-        <div class="event-details">
-            <div>📅 Friday, November 6, 2026</div>
-            <div>📍 Bradford Walk</div>
-            <div>🕔 5:00 PM Onwards</div>
-        </div>
+<h2>Walk-Through Party</h2>
 
-        #rsvpRSVP NOW</a>
+<p class="tagline">
+Four Homes. One Celebration. Endless Memories.
+</p>
 
-    </div>
+<div class="event-details">
+<p>📅 Friday, November 6, 2026</p>
+<p>📍 Bradford Walk</p>
+<p>🕔 5:00 PM Onwards</p>
+</div>
 
-    <section>
-        <h3>Namaste & Welcome</h3>
+#rsvp
+RSVP NOW
+</a>
 
-        <p>
-            As diyas illuminate our homes and hearts, we warmly invite you and your family
-            to celebrate Diwali with us.
-        </p>
+</section>
 
-        <br>
+<section>
 
-        <p>
-            Join neighbors, friends, and loved ones for a magical evening filled with lights,
-            food, music, games and friendship.
-        </p>
+<h3>Namaste & Welcome</h3>
 
-        <br>
+<p style="max-width:900px;margin:auto;text-align:center;">
+As diyas illuminate our homes and hearts, we warmly invite you and your
+family to celebrate Diwali with us.
+<br><br>
+Join neighbors, friends, and loved ones for a magical evening filled
+with lights, delicious food, music, games, and friendship.
+<br><br>
+Let's create beautiful memories together.
+</p>
 
-        <p>
-            Let's create beautiful memories together.
-        </p>
-    </section>
+</section>
 
-    <section>
+<section>
 
-        <h3>Event Highlights</h3>
+<h3>Event Highlights</h3>
 
-        <div class="cards">
+<div class="cards">
 
-            <div class="card">
-                <div>🪔</div>
-                <h4>Festival Lights</h4>
-            </div>
+<div class="card">
+<div class="icon">🪔</div>
+<h4>Festival Lights</h4>
+</div>
 
-            <div class="card">
-                <div>🍛</div>
-                <h4>Delicious Food</h4>
-            </div>
+<div class="card">
+<div class="icon">🍛</div>
+<h4>Delicious Food</h4>
+</div>
 
-            <div class="card">
-                <div>🎵</div>
-                <h4>Music</h4>
-            </div>
-
-            <div class="card">
-                <div>🎲</div>
-                <h4>Games</h4>
-            </div>
-
-            <div class="card">
-                <div>📸</div>
-                <h4>Photo Moments</h4>
-            </div>
-
-            <div class="card">
-                <div>❤️</div>
-                <h4>Community Spirit</h4>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section>
-
-        <h3>House Schedule</h3>
-
-        <div class="schedule">
-
-            <div class="house">
-                <h4>🏠 House 1</h4>
-                <p>5:00 PM - Welcome & Snacks</p>
-                <p>1048 Smithfield Ln</p>
-            </div>
-
-            <div class="house">
-                <h4>🏠 House 2</h4>
-                <p>6:30 PM - Games & Activities</p>
-            </div>
-
-            <div class="house">
-                <h4>🏠 House 3</h4>
-                <p>7:30 PM - Dinner</p>
-            </div>
-
-            <div class="house">
-                <h4>🏠 House 4</h4>
-                <p>8:30 PM - Desserts & Celebration</p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section>
-
-        <h3>Countdown to Diwali Walk</h3>
-
-        <div id="countdown">
-            Loading...
-        </div>
-
-    </section>
-
-    <section>
-
-        <h3>Photo Gallery</h3>
-
-<div class="gallery">
- 
-images/D1.jpeg
- 
-images/D2.jpeg
-
-
-
-        </div>
-
-    </section>
-
-
-
-    <section id="rsvp">
-
-        <h3>RSVP</h3>
-
-        <p>
-            Please let us know if you'll be joining us.
-        </p>
-
-        <br>
-
-        <div class="rsvp-box">
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeuk0NGSNi2Yegqr4grlWOpYMijSe2LNqPKwwsuV6j1t4GYbQ/viewform?embedded=true" width="640" height="2058" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-        </div>
-
-    </section>
-
-    <footer>
-
-        <h2>🪔 Happy Diwali 🪔</h2>
-
-        <p>
-            May this festival of lights bring joy, prosperity and happiness to your home.
-        </p>
-
-        <br>
-
-        <p>
-            We look forward to celebrating with you!
-        </p>
-
-    </footer>
-
-    script.jsscript>
-
-</body>
-
-</html>
+<div class="card">
+<div class="icon">🎵</div>
+<h4>Music & Entertainment</h4
