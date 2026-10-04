@@ -1,0 +1,170 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#fff8eb;
+color:#5a0018;
+line-height:1.6;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:
+linear-gradient(to bottom,
+#fff8eb,
+#fff1d4);
+}
+
+.diya{
+font-size:70px;
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{
+transform:scale(1);
+}
+to{
+transform:scale(1.1);
+text-shadow:0 0 30px gold;
+}
+}
+
+h1{
+font-family:'Cormorant Garamond',serif;
+font-size:5rem;
+font-weight:700;
+}
+
+h2{
+font-family:'Cormorant Garamond',serif;
+font-size:2.5rem;
+}
+
+.tagline{
+margin-top:20px;
+font-size:1.3rem;
+max-width:700px;
+}
+
+.event-details{
+margin:30px 0;
+}
+
+.event-details div{
+margin:10px 0;
+font-size:1.1rem;
+}
+
+.btn{
+display:inline-block;
+background:#8f0027;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:30px;
+margin-top:15px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#65001c;
+}
+
+section{
+padding:80px 10%;
+text-align:center;
+}
+
+section h3{
+font-size:3rem;
+font-family:'Cormorant Garamond',serif;
+margin-bottom:30px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+font-size:2rem;
+}
+
+.schedule{
+display:grid;
+gap:20px;
+}
+
+.house{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+#countdown{
+font-size:2rem;
+font-weight:bold;
+padding:20px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:280px;
+object-fit:cover;
+border-radius:15px;
+}
+
+.rsvp-box{
+max-width:900px;
+margin:auto;
+}
+
+footer{
+padding:70px 20px;
+text-align:center;
+background:#7A0019;
+color:white;
+}
+
+footer h2{
+margin-bottom:20px;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:3.5rem;
+}
+
+h2{
+font-size:2rem;
+}
+
+section h3{
+font-size:2.2rem;
+}
+
+}
